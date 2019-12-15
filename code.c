@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include<ctype.h>
 #define SUBOR "sifra.txt"
-#define N 'Z' - 'A' + 1 
 
 int main()
 {
@@ -155,29 +154,6 @@ int main()
                 {
                     printf("Cislo od 1 do 100\n");
                 }
-                break;
-                
-                case 'h': //vytvorenie histogramu z upravenej správy
-                //c=0;
-                //if(p!=0)
-                //{
-                //    while (uprava[c] != '\0') 
-                //    {
-                //        if (uprava[c] >= 'A' && uprava[c] <= 'Z') 
-                //        {
-                //            x = uprava[c] - 'A';
-                //            uprava[x]++;
-                //        }
-                //        c++;
-                //    }
-                //    for (c = 0; c < 26; c++)
-                //    printf("%c je %d\n", c + 'A', uprava[c]);
-                //}
-                printf("h\n");
-                break;
-                
-                case 'c':
-                printf("c\n");
                 break;
 
                 case 'p': //výpis počtu všetkých znakov abecedy a ostatných
