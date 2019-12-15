@@ -10,7 +10,13 @@ int main()
     FILE *fr;
     char menu;
     
+    printf("Toto je program na citanie textu zo suboru.\n");
+    
     do{
+        printf("Zadajte nasledovne prikazy:\n");
+        printf(" >'n'- nacitanie spravy\n >'v'- vypis spravy\n");
+        printf(" >'u'- uprava nacitanej spravy\n >'d'- vypis vsetkych slov danej dlzky\n");
+        printf(" >'p'- vypis poctu znakov\n >'z'- zmazanie retazca do cisla _ po cislo _\n >'k'- koniec programu\n");
         scanf (" %c", &menu);
         
         if (menu != 'k') //ak vstup z klávesnice je 'k' switch menu sa ukončí
